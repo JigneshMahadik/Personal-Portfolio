@@ -6,6 +6,12 @@ import javascript from './images/javascript.png'
 import react from './images/react.png'
 import java from './images/java.png'
 import nodejs from './images/nodejs.png'
+import web from './images/web-3.png'
+import mobile from './images/mobile.png'
+import devSol from './images/dev-sol.png'
+import seo from './images/seo.png'
+import visuals from './images/visuals.png'
+import animation from './images/animation.png'
 
 export function About(){
     return (
@@ -34,10 +40,11 @@ export function About(){
                     <div class="flex flex-wrap -m-4">
                     <div class="p-4 lg:w-1/2 md:w-full">
                         <div class="flex border-2 rounded-lg border-gray-800 p-8 sm:flex-row flex-col">
-                        <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 flex-shrink-0">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8" viewBox="0 0 24 24">
+                        <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full  text-indigo-400 flex-shrink-0">
+                            {/* <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8" viewBox="0 0 24 24">
                             <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                            </svg>
+                            </svg> */}
+                            <img src={web} width={70}/>
                         </div>
                         <div class="flex-grow">
                             <h2 class="text-white text-lg title-font font-medium mb-3">Web Design & Development</h2>
@@ -52,11 +59,12 @@ export function About(){
                     </div>
                     <div class="p-4 lg:w-1/2 md:w-full">
                         <div class="flex border-2 rounded-lg border-gray-800 p-8 sm:flex-row flex-col">
-                        <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 flex-shrink-0">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+                        <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full text-indigo-400 flex-shrink-0">
+                            {/* <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
                             <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
                             <circle cx="12" cy="7" r="4"></circle>
-                            </svg>
+                            </svg> */}
+                            <img src={mobile} width={70}/>
                         </div>
                         <div class="flex-grow">
                             <h2 class="text-white text-lg title-font font-medium mb-3">Mobile Apps & Games</h2>
@@ -71,10 +79,11 @@ export function About(){
                     </div>
                     <div class="p-4 lg:w-1/2 md:w-full">
                         <div class="flex border-2 rounded-lg border-gray-800 p-8 sm:flex-row flex-col">
-                        <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 flex-shrink-0">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8" viewBox="0 0 24 24">
+                        <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full text-indigo-400 flex-shrink-0">
+                            {/* <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8" viewBox="0 0 24 24">
                             <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                            </svg>
+                            </svg> */}
+                            <img src={devSol} width={70}/>
                         </div>
                         <div class="flex-grow">
                             <h2 class="text-white text-lg title-font font-medium mb-3">Development Solutions</h2>
@@ -89,11 +98,12 @@ export function About(){
                     </div>
                     <div class="p-4 lg:w-1/2 md:w-full">
                         <div class="flex border-2 rounded-lg border-gray-800 p-8 sm:flex-row flex-col">
-                        <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 flex-shrink-0">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+                        <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full text-indigo-400 flex-shrink-0">
+                            {/* <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
                             <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
                             <circle cx="12" cy="7" r="4"></circle>
-                            </svg>
+                            </svg> */}
+                            <img src={seo} width={70}/>
                         </div>
                         <div class="flex-grow">
                             <h2 class="text-white text-lg title-font font-medium mb-3">Marketing & SEO</h2>
@@ -116,10 +126,11 @@ export function About(){
                     <div class="flex flex-wrap -m-4">
                     <div class="p-4 lg:w-1/2 md:w-full">
                         <div class="flex border-2 rounded-lg border-gray-800 p-8 sm:flex-row flex-col">
-                        <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 flex-shrink-0">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8" viewBox="0 0 24 24">
+                        <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full text-indigo-400 flex-shrink-0">
+                            {/* <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-8 h-8" viewBox="0 0 24 24">
                             <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                            </svg>
+                            </svg> */}
+                            <img src={visuals} width={70}/>
                         </div>
                         <div class="flex-grow">
                             <h2 class="text-white text-lg title-font font-medium mb-3">Visual Storytelling</h2>
@@ -134,11 +145,12 @@ export function About(){
                     </div>
                     <div class="p-4 lg:w-1/2 md:w-full">
                         <div class="flex border-2 rounded-lg border-gray-800 p-8 sm:flex-row flex-col">
-                        <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 flex-shrink-0">
-                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+                        <div class="w-16 h-16 sm:mr-8 sm:mb-0 mb-4 inline-flex items-center justify-center rounded-full text-indigo-400 flex-shrink-0">
+                            {/* <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
                             <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
                             <circle cx="12" cy="7" r="4"></circle>
-                            </svg>
+                            </svg> */}
+                            <img src={animation} />
                         </div>
                         <div class="flex-grow">
                             <h2 class="text-white text-lg title-font font-medium mb-3">Digital Content Creation</h2>
@@ -212,8 +224,11 @@ export function About(){
                 <div class="container px-5 py-24 mx-auto">
                     <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-800 sm:flex-row flex-col">
                     <div class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full text-indigo-400 bg-gray-800 flex-shrink-0">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="sm:w-16 sm:h-16 w-10 h-10" viewBox="0 0 24 24">
+                        {/* <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="sm:w-16 sm:h-16 w-10 h-10" viewBox="0 0 24 24">
                         <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                        </svg> */}
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
                         </svg>
                     </div>
                     <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
@@ -227,10 +242,14 @@ export function About(){
                         <p class="leading-relaxed text-base">Creating Instrumentals, Mixing and Mastering Tracks and Collaborating with Musicians</p>
                     </div>
                     <div class="sm:w-32 order-first sm:order-none sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full text-indigo-400 bg-gray-800 flex-shrink-0">
-                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="sm:w-16 sm:h-16 w-10 h-10" viewBox="0 0 24 24">
+                        {/* <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="sm:w-16 sm:h-16 w-10 h-10" viewBox="0 0 24 24">
                         <circle cx="6" cy="6" r="3"></circle>
                         <circle cx="6" cy="18" r="3"></circle>
                         <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                        </svg> */}
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-indigo-400 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+                            <path d="M3 18v-6a9 9 0 0118 0v6"></path>
+                            <path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"></path>
                         </svg>
                     </div>
                     </div>
