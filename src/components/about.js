@@ -1,5 +1,5 @@
 import Navbar from "./navbar";
-import SoftDev from './pic-3.jpeg'
+import SoftDev from './images/banner-5.svg'
 import html from './images/html.png'
 import css from './images/css.png'
 import javascript from './images/javascript.png'
@@ -28,8 +28,8 @@ export function About(){
                     </p>
                     
                     </div>
-                    <div class="lg:w-2/5 md:w-1/ bg-opacity-50 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
-                        <img src={SoftDev}/>    
+                    <div class="lg:w-2/5 md:w-1/ bg-opacity-50 rounded-lg p-1 flex flex-col md:ml-auto w-full">
+                        <img src={SoftDev} width={350} />
                     </div>
                 </div>
             </section>
