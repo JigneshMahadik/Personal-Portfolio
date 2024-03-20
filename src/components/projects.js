@@ -37,7 +37,7 @@ export function Projects(){
                             <h2 class="text-white text-lg title-font font-medium">Grocery-Bud</h2>
                         </div>
                         <div class="flex-grow mb-6">
-                            <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+                            <p class="leading-relaxed text-base">This web application represents the Grocery List where we can add any number of grocery items also also can remove it from the list and make it marked.</p>
                             {/* <a class="mt-3 text-indigo-400 inline-flex items-center">Learn More
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                 <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -64,7 +64,7 @@ export function Projects(){
                             <h2 class="text-white text-lg title-font font-medium">Geek Foods</h2>
                         </div>
                         <div class="flex-grow">
-                            <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+                            <p class="leading-relaxed text-base">By using this app user can search the best restaurants and foods with individual ratings.</p>
                             {/* <a class="mt-3 text-indigo-400 inline-flex items-center">Learn More
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                 <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -76,7 +76,7 @@ export function Projects(){
                         {/* Due to adding link in anchor tag responsivness is scattered */}
 
                         <h4 className="text-left mt-3 font-medium">Hosted Link : <a href="https://geek-foods-dusky.vercel.app/" className="text-blue-500">https://geek-foods-dusky.vercel.app/</a></h4>
-                        <h4 className="text-left mt-3 font-medium">Git Repo : <a href="https://github.com/JigneshMahadik/React-Quiz-App.git" className="text-blue-500">https://github.com/JigneshMahadik/React-Quiz-App.git</a></h4>
+                        <h4 className="text-left mt-3 font-medium">Git Repo : <a href="https://github.com/JigneshMahadik/GeekFoods.git" className="text-blue-500">https://github.com/JigneshMahadik/GeekFoods.git</a></h4>
                         </div>
                     </div>
                     <div className="p-4 md:w-1/2">
@@ -91,7 +91,7 @@ export function Projects(){
                             <h2 class="text-white text-lg title-font font-medium">Aria</h2>
                         </div>
                         <div class="flex-grow mb-6">
-                            <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+                            <p class="leading-relaxed text-base">This app shows the business template that can be used to grow their business with their different services and experties like Design, Development, SEO, Marketing, etc.</p>
                             {/* <a class="mt-3 text-indigo-400 inline-flex items-center">Learn More
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                 <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -118,7 +118,7 @@ export function Projects(){
                             <h2 class="text-white text-lg title-font font-medium">Digital Clock</h2>
                         </div>
                         <div class="flex-grow mb-6">
-                            <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+                            <p class="leading-relaxed text-base">This project shows the real clock time with Hour, Minutes and Seconds with actual AM and PM time periods that also changed based to actual time.</p>
                             {/* <a class="mt-3 text-indigo-400 inline-flex items-center">Learn More
                             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                 <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -130,7 +130,7 @@ export function Projects(){
                         {/* To do  */}
                         {/* Due to adding link in anchor tag responsivness is scattered */}
 
-                        <h4 className="text-left mt-3 font-medium">Git Repo : <a href="https://jigneshmahadik.github.io/digital-clock/" className="text-blue-500">https://jigneshmahadik.github.io/digital-clock/</a></h4>
+                        <h4 className="text-left mt-3 font-medium">Git Repo : <a href="https://github.com/JigneshMahadik/digital-clock.git" className="text-blue-500">https://github.com/JigneshMahadik/digital-clock.git</a></h4>
                         </div>
                     </div>
                     </div>
