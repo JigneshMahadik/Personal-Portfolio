@@ -23,8 +23,10 @@ export function About(){
                     {/* <h1 class="title-font font-medium text-3xl text-white">
                     </h1> */}
                     <p class="leading-relaxed mt-4 font-mono font-extralight font-extrabold">
-                        <h4>Hello there! 👋 My name is Oktay and I'm from Berlin, Germany. As a Full-Stack software developer, I specialize in creating visually appealing websites, apps and mobile games. My passion for graphic design isn't just a hobby, it's a key ingredient in every project I work on.</h4>
-                        Growing up bilingual, I developed a love for languages and I currently speak four of them fluently. 
+                        <p class="text-white text-lg title-font font-medium">Seeking 🕵️‍♂️ an opportunity in the field of software engineering with the good knowledge of various
+                            technologies. Ability to implement a full software development life cycle (SDLC) and analyze the
+                            performance of programs to correct the deficiencies.
+                        </p>
                     </p>
                     
                     </div>
